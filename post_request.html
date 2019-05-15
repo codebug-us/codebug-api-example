@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Send POST Request</title>
+	<script
+	  src="https://code.jquery.com/jquery-3.4.1.min.js"
+	  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="post_request.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="topnav">
+	  <a href="index.html">Home</a>
+	  <a href="get_request.html">Send GET Request</a>
+	  <a class="active" href="post_request.html">Send POST Request</a>
+	  <a href="get_environment_variable.html">GET Environment Variable</a>
+	</div>
+	<h1>Code Examples for interacting with your Node API</h1>
+	<p>Check out post_request.js to see our JS code!</p>
+	<img src="images/post_request.png" style="width:500px; height:auto;">
+	<p>*Notice that we are sending a POST request to our backend and passing all the data that will be used for our POST request inside the data field. The POST request is then sent from our backend, and the response is returned to you!</p>
+	<h4>Test it out! (open the developer tools to see the response)</h4>
+	<button id="post-request">Create a new person in our "famous peeps" Airtable database</button>
+	<p>If you get a 200 status code in your response, it worked!</p>
+</body>
+</html>
